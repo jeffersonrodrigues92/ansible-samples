@@ -1,0 +1,6 @@
+- 
+  hosts: instances
+  name: Echo on EC2
+  tasks:
+    - name: Echo
+      command: echo Hello World
